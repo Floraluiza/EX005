@@ -1,0 +1,29 @@
+ul{
+  list-style-type: none; /*tirar os pontinhos da lista*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*comportamento ao passar mouse por cima*/
+  background-color: #333;
+
+}
+
+li{
+  float: left; //agrupa os links do menu em horizontal
+}
+
+li a{ //barra de menu com a tag a
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; //tira o sublinhado
+
+}
+
+li a:hover:not(.ativa) {
+  background-color: black;
+}
+
+.ativa{
+  background-color: blue;
+}
